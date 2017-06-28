@@ -32,7 +32,8 @@ public class JobData {
         return instance;
     }
 
-    public Job findById(int id) {
+    public Job
+    findById(int id) {
         for (Job job : jobs) {
             if (job.getId() == id)
                 return job;
